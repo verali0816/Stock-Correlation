@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: last try
+title: last try-333
 locale: en_US
 description: Describe your website here.
 logo: site-logo.png
 search: true
-url: https://github.com/verali0816/aiyamaya/tree/master
+url: https://verali0816.github.io/aiyamaya
 
 # Jekyll configuration
 
