@@ -1,14 +1,16 @@
 # Site navigation links
 
-- title: About
+- title: Introduction
   url: /about/
 
-- title: Articles
+- title: Methodology
   url: /articles/
 
-- title: Blog
+- title: Results
   url: /blog/
 
+- title: Discussion
+  url: 
 
 - title: Search
   url: /search/
