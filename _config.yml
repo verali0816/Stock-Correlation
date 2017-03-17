@@ -2,7 +2,7 @@
 
 title: Stock Correlation 
 locale: en_US
-description: 141B
+description: STA141B Project
 logo: corr_2016_s2.png
 search: true
 url: https://verali0816.github.io/aiyamaya
@@ -36,9 +36,9 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: STA141B-stock correlation
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: veralimd@gmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username
