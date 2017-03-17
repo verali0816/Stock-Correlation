@@ -1,4 +1,4 @@
 Methods
-![Method](Method.png)
+![Method](/images/Method.png)
 
 Test whether works -2.
