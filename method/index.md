@@ -1,4 +1,4 @@
 Methods
-![Method](/images/Method.png)
+![Method](https://verali0816.github.io/images/Method.png)
 
-Test whether works.
+Test whether works -2.
