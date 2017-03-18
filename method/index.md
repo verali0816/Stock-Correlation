@@ -6,8 +6,8 @@ search_omit: true
 ---
 
 <figure>
-	<a href="http://verali0816.github.io/images/Method.png"><img src="http://verali0816.github.io/images/Method.png" alt="image"></a>
-	<figcaption><a href="http://verali0816.github.io/images/Method.png" title="Method">Methods for stock correlation</a>.</figcaption>
+	<a href="https://github.com/verali0816/aiyamaya/blob/master/images/Method.png"><img src="https://github.com/verali0816/aiyamaya/blob/master/images/Method.png" alt="image"></a>
+	<figcaption><a href="https://github.com/verali0816/aiyamaya/blob/master/images/Method.png" title="Method">Methods for stock correlation</a>.</figcaption>
 </figure>
 
 
