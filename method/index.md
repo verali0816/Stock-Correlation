@@ -4,8 +4,7 @@ excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 ---
 
 <figure>
-	<a href="https://github.com/verali0816/aiyamaya/blob/master/images/Method.png?raw=true
-"><img src="https://github.com/verali0816/aiyamaya/blob/master/images/Method.png?raw=true" alt="image"></a>
+	<img src="https://github.com/verali0816/aiyamaya/blob/master/images/Method.png?raw=true" alt="image">
 	<figcaption><a href="https://github.com/verali0816/aiyamaya/blob/master/images/Method.png?raw=true" title="Work Flow">Work Flow</a>.</figcaption>
 </figure>
 
