@@ -51,3 +51,7 @@ Figure 4. The distributions of stocks in two sectors in 2008 to 2016.
 	<img src="https://github.com/verali0816/Stock-Correlation/blob/master/images/Consumer.png?raw=true" alt="image">
 	<img src="https://github.com/verali0816/Stock-Correlation/blob/master/images/IT.png?raw=true" alt="image">
 </figure>
+
+# Trend Visualization among Sectors
+
+
