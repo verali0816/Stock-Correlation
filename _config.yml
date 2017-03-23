@@ -10,7 +10,7 @@ url: https://verali0816.github.io/Stock-Correlation
 # Jekyll configuration
 
 permalink:   /:categories/:title/
-markdown:    kramdown
+markdown: kramdown
 highlighter: rouge
 sass:
   sass_dir: _sass
