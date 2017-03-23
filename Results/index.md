@@ -60,7 +60,8 @@ Figure 4. The distributions of stocks in two sectors in 2008 to 2016.
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~dayi1292/175.embed"></iframe>
 
-Above we see three different sector based stock trends, if we were to select stocks based on their closed price performance across the years, the companies that are being more profitable and stock prices have constantly been increasing are Google in Information and Technology, AQUIX and PSA in Real State and 
+Above we see three different sector based stock trends, if we were to select stocks based on their closed price performance across the years, the companies that are being more profitable and stock prices have constantly been increasing are Google in Information and Technology, AQUIX and PSA in Real State and PXD in the Energy sector.Pioneer Natural Resources Company is a petroleum, natural gas, and natural gas liquids exploration and production company and is beating Chevron on the market. You can see this by selecting only Chevron and PXD in our interactive trend plot. 
+
 
 <h1>Portfolio Selection Based on Minimum Spanning Tree</h1>
 <h2>Minimum Spanning Tree</h2>
