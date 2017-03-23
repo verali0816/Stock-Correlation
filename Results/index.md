@@ -4,11 +4,15 @@ excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 ---
 
 To build the correlation network from year 2008 to 2016, we used the correlation matrix. Two stocks with absolute correlation larger than 0.6 are connected with an edge. Below is the networks in this nine years,
+
 Figure 1. Correlation Network from year 2008 to 2016.
 <figure class="third">
 	<img src="https://github.com/verali0816/aiyamaya/blob/master/images/corr_2008_m2.png?raw=true" alt="image">
+  <figcaption>2008</figcaption>
 	<img src="https://github.com/verali0816/aiyamaya/blob/master/images/corr_2009_m2.png?raw=true" alt="image">
+  <figcaption>2009</figcaption>
 	<img src="https://github.com/verali0816/aiyamaya/blob/master/images/corr_2010_m2.png?raw=true" alt="image">
+  <figcaption>2010</figcaption>
 </figure>
 <figure class="third">
 	<img src="https://github.com/verali0816/aiyamaya/blob/master/images/corr_2011_m2.png?raw=true" alt="image">
@@ -43,6 +47,7 @@ To study the evolution of degree distribution over these 9 years, we plotted the
 
 We also studied the changes in connectivity of stocks in each sector over time. We selected two biggest sectors, Consumer Discretionary and Information Technology, to illustrate (Figure 5). The size of circles represent the average degree of stocks in that sector in different modules. These two sectors gave similar conclusion. Before 2011, the stocks for each sector were distributed in less modules but had higher average degree. In contrast, after 2011, the stocks for each sector were distributed in more modules but had lower average degrees. 
 
+Figure 4. The distributions of stocks in two sectors in 2008 to 2016. 
 <figure class="half">
 	<img src="https://github.com/verali0816/Stock-Correlation/blob/master/images/Consumer.png?raw=true" alt="image">
 	<img src="https://github.com/verali0816/Stock-Correlation/blob/master/images/IT.png?raw=true" alt="image">
