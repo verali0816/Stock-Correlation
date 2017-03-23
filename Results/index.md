@@ -67,10 +67,6 @@ Figure 4. The distributions of stocks in two sectors in 2008 to 2016.
 <li>6. stop when all the vertices have been drawn</li></ul>  
 <p>We use the distance matrix defined as following to construct the network.<br>
 <div lang="latex">distance_{i,j} = \sqrt{2.0 * ( 1 – correlation_{i, j}}</div><br>
- try \\( distance_{i,j} = why \\)
-
-this try \\( 1/x^{2} \\)
-why \\[ \frac{1}{n^{2}} \\]
 
 <h2>Portfolio Selection</h2>
 <p>We want to buld to portfolio, central portfolio and peripheral portfolio. The central portfolios and the peripheral portfolios represent two opposite sides of correlation and agglomeration. Generally speaking, central stocks play a vital role in the market and impose strong influence on other stocks, whereas the correlations between peripheral stocks are weak and contain more noise than central stocks.<br>
