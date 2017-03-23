@@ -39,7 +39,7 @@ We decided to model the stock market as a network, where companies/stocks are re
 
 # Minimum Spanning Tree
 
-Minimum Spanning Trees (MST) are undirected graphs with weights on the edges. We used the correlation matrix in a different form by transforming into distances through the use of the equation: distance[i, j] = sqrt(2.0 * ( 1 – correlation[i, j] ) ). MST was used to select a portfolio (set of stocks) based on centrality and distance measures. Peripheral portfolio was done by selecting stocks with greater distance in between them, and central portfolio by selecting stocks that have he more the edges that are associated with its node. Peripheral stocks do not necessarily posses relationship between each other. 
+Minimum Spanning Trees (MST) are undirected graphs with weights on the edges. We used the correlation matrix in a different form by transforming into distances through the use of the equation: distance[i, j] = sqrt(2.0 * ( 1 – correlation[i, j] ) ). MST was used to select a portfolio (set of stocks) based on centrality and distance measures. Peripheral portfolio was done by selecting stocks with greater distance in between them, and central portfolio by selecting stocks that have more the edges  associated with its node. Peripheral stocks do not necessarily posses relationship between each other. 
 We also computed relationship statistics and provided performance comparison of our selected portfolio againts the market for 2016.
 
 ``` 
