@@ -28,7 +28,6 @@ kramdown:
   toc_levels: 1..2
   enable_coderay: false
 
-markdown: kramdown
 mathjax: true
 
 include: [".htaccess"]
