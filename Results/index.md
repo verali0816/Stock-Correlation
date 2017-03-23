@@ -25,6 +25,7 @@ Figure 1. Correlation Network from year 2008 to 2016.
 
 As we can see in the above graphs, the networks are becoming more disconnected and there are more distinct modules over time. Before 2011, the US economy was under financial crisis. Meanwhile, the networks form a few modules and the nodes are highly correlated. After 2011, the US economy was under recovery. The networks form more diversified modules and the nodes are less correlated. The labeling of nodes represent the sector information of that stock. We observed that the modularities are somewhat consistent with the sector information. 
 
+<h2>Analysis of Network</h2>
 Figure 2 clearly illustrates the changes in the number of modules in network from year 2008 to 2016. After 2011, there was an significant increase in the number of modules. 
 
 Figure 2. The number of modules in network from year 2008 to 2016.
