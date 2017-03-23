@@ -52,8 +52,15 @@ Figure 4. The distributions of stocks in two sectors in 2008 to 2016.
 	<img src="https://github.com/verali0816/Stock-Correlation/blob/master/images/IT.png?raw=true" alt="image">
 </figure>
 
-# Trend Visualization among Sectors
+## Trend Visualization among Sectors
 
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~dayi1292/179.embed"></iframe>
+
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~dayi1292/177.embed"></iframe>
+
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~dayi1292/175.embed"></iframe>
+
+Above we see three different sector based stock trends, if we were to select stocks based on their closed price performance across the years, the companies that are being more profitable and stock prices have constantly been increasing are Google in Information and Technology, AQUIX and PSA in Real State and 
 
 <h1>Portfolio Selection Based on Minimum Spanning Tree</h1>
 <h2>Minimum Spanning Tree</h2>
