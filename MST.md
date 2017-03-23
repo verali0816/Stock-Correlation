@@ -11,7 +11,7 @@
 <li>6. stop when all the vertices have been drawn</li></ul>  
 <p>We use the distance matrix defined as following to construct the network.<br>
 <div lang="latex">distance_{i,j} = \sqrt{2.0 * ( 1 – correlation_{i, j}}</div><br>
-
+\\(distance_{i,j} = \sqrt{2.0}\\)
 <h2>Portfolio Selection</h2>
 <p>We want to buld to portfolio, central portfolio and peripheral portfolio. The central portfolios and the peripheral portfolios represent two opposite sides of correlation and agglomeration. Generally speaking, central stocks play a vital role in the market and impose strong influence on other stocks, whereas the correlations between peripheral stocks are weak and contain more noise than central stocks.<br>
 To measure centrality and peripherality of nodes in MST, we define two indecie, Centrality indes and Distance index.<br>
