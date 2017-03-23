@@ -8,7 +8,7 @@ excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 	<figcaption><a href="https://github.com/verali0816/aiyamaya/blob/master/images/Method.png?raw=true" title="Work Flow">Work Flow</a>.</figcaption>
 </figure>
 
-The Figure above displays a summary of our methodology. 
+The Figure above displays a summary of our methodology. All Jupyter notebooks are available in the links provided in this page. Graphics within the notebooks are discussed in the Results section.
 
 # Data Summary
 
@@ -31,10 +31,10 @@ def get_stockprice(ticker, start_date, end_date):
     return df[ticker]
 ```
 
-The jupyter notebook for the Data_Download is available[here]()
+The jupyter notebook for the Data_Download is available [here](STA141B_group_project/Get Data_dla.ipynb)
 
 # Network Construction
-We decided to model the stock market as a network, where companies/stocks are respresented as a node. We proceeded to use the correlation matrix as a filtering method to define the interaction and create the edges between pairs of companies.  Edges were created when the |correlation| between a \\(stocks(i,j) > t\\) where t is a pre-specified threshold.  Although, there are modules that enable the creation of networks in python such as networkx and igraph, we decided to use Gephi available [here](https://gephi.org/) to plot the visualizations due to its nice visualization features and automatic production of network related statistics. 
+We decided to model the stock market as a network, where companies/stocks are respresented as a node. We proceeded to use the correlation matrix as a filtering method to define the interaction and create the edges between pairs of companies.  Edges were created when the |correlation| between a \\(stocks(i,j) > t\\) where t is a pre-specified threshold.  Although, there are modules that enable the creation of networks in python such as networkx and igraph, we decided to use Gephi available [here](https://gephi.org/) to plot the visualizations due to its nice visualization features and automatic production of network related statistics.  Summary graphics done from the relatedness statistics were done using matplotlib and plot.ly can be found here [Statistical Analysis.ipnyb](STA141B_group_project/Statistic analysis.ipynb)
 
 
 # Minimum Spanning Tree
@@ -42,7 +42,7 @@ We decided to model the stock market as a network, where companies/stocks are re
 Minimum Spanning Trees (MST) are undirected graphs with weights on the edges. We used the correlation matrix in a different form by transforming into distances through the use of the equation: \\(distance[i, j] = sqrt(2.0 * ( 1 – correlation[i, j] )\\) . MST was used to select a portfolio (set of stocks) based on centrality and distance measures. Peripheral portfolio was done by selecting stocks with greater distance in between them, and central portfolio by selecting stocks that have more the edges  associated with its node. Peripheral stocks do not necessarily posses relationship between each other. 
 We also computed relationship statistics and provided performance comparison of our selected portfolio againts the market for 2016.
 
-More information about how we computed the MST here: https://verali0816.github.io/Stock-Correlation/MST/
+More information about how we computed the MST here: [https://verali0816.github.io/Stock-Correlation/MST/](https://verali0816.github.io/Stock-Correlation/MST/]
 
 ``` 
 #Method in python to develop the MST
