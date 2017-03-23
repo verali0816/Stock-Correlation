@@ -5,7 +5,7 @@ modified: 2014-08-08T19:44:38.564948-04:00
 ---
 
 ## Visualization of Changes in Stock Correlations for the S&P500 dataset
-By: Tongke Wu, Wenquian Li and Dayanara Lebron-Aldea
+By: Tongke Wu, Wenqian Li and Dayanara Lebron-Aldea
 
 The Standard and Poor 500 is one of America’s stock market indexes based on the market capitalizations of 500 large companies. To buy a stock is to obtain a part of a corporation assets and earnings.  We were interested in data from 2008-2016 to be able to capture the effect of the financial crisis on the stock market which happened in 2008, and observe how the market was recuperating after that. 
 
