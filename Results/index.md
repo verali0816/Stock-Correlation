@@ -8,11 +8,8 @@ To build the correlation network from year 2008 to 2016, we used the correlation
 Figure 1. Correlation Network from year 2008 to 2016.
 <figure class="third">
 	<img src="https://github.com/verali0816/aiyamaya/blob/master/images/corr_2008_m2.png?raw=true" alt="image">
-  <figcaption>2008</figcaption>
 	<img src="https://github.com/verali0816/aiyamaya/blob/master/images/corr_2009_m2.png?raw=true" alt="image">
-  <figcaption>2009</figcaption>
 	<img src="https://github.com/verali0816/aiyamaya/blob/master/images/corr_2010_m2.png?raw=true" alt="image">
-  <figcaption>2010</figcaption>
 </figure>
 <figure class="third">
 	<img src="https://github.com/verali0816/aiyamaya/blob/master/images/corr_2011_m2.png?raw=true" alt="image">
