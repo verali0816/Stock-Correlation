@@ -2,7 +2,8 @@
 layout: page
 excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 ---
-
+<h1>Change of Correlations of S&P 500 Stocks in 2008-2016</h1>
+<h2>Correlation Filtering Network</h2>
 To build the correlation network from year 2008 to 2016, we used the correlation matrix. Two stocks with absolute correlation larger than 0.6 are connected with an edge. Below is the networks in this nine years,
 
 Figure 1. Correlation Network from year 2008 to 2016.
