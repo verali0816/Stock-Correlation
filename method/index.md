@@ -15,6 +15,8 @@ The Figure above displays a summary of our methodology. All Jupyter notebooks ar
 We started by web-scraping the [S&P wikipedia](https://en.wikipedia.org/wiki/S%26P_500_Index) page to get the name of the companies and the standard industrial calsssification code. The later helped us to classify the stocks into different sectors which will be ised in the visualization part. We then used the Yahoo Finance module to download the Closed Stock Price and Volume for ~250 days/year for 2008-2016. Dowloading the data takes about ~30 mins/per year, resulting in 4.5 hours period to download the data for 2008-2016. We created the Closed Price correlation matrix, and used this as a filtering method to determine relationship between the stocks. 
 
 ```
+#Piece of code to showcase written method used to download the daily closed price for all years
+
 # Function to retrieve the daily close price for a specific stock from Yahoo Finance
 def get_stockprice(ticker, start_date, end_date):
     """
@@ -46,7 +48,7 @@ We also computed relationship statistics and provided performance comparison of 
 More information about how we computed the MST here: [https://verali0816.github.io/Stock-Correlation/MST](https://verali0816.github.io/Stock-Correlation/MST)
 
 ``` 
-#Method in python to develop the MST
+#Method written in python to develop the MST
 
 def minimum_spanning_tree(X, copy_X=True):
     """X are edge weights of fully connected graph"""
