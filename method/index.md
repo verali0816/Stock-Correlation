@@ -32,7 +32,7 @@ def get_stockprice(ticker, start_date, end_date):
 ```
 
 The jupyter notebook for the Data_Download is available [here](https://github.com/verali0816/STA141B_group_project/blob/master/Get%20Data_dla.ipynb)
-and this jupyter notebook contains some interactive plots made in plot.ly to compare trends of stocks[Graphics.ipynb](https://github.com/verali0816/STA141B_group_project/blob/master/Graphics.ipynb)
+. In this other jupyter notebook you can find some interactive plots made in plot.ly to compare trends of stocks[Graphics.ipynb](https://github.com/verali0816/STA141B_group_project/blob/master/Graphics.ipynb)
 
 # Network Construction
 We decided to model the stock market as a network, where companies/stocks are respresented as a node. We proceeded to use the correlation matrix as a filtering method to define the interaction and create the edges between pairs of companies.  Edges were created when the |correlation| between a \\(stocks(i,j) > t\\) where t is a pre-specified threshold.  Although, there are modules that enable the creation of networks in python such as networkx and igraph, we decided to use Gephi available [here](https://gephi.org/) to plot the visualizations due to its nice visualization features and automatic production of network related statistics.  Summary graphics done from the relatedness statistics were done using matplotlib and plot.ly can be found here [Statistical Analysis.ipnyb](https://github.com/verali0816/STA141B_group_project/blob/master/Statistic%20analysis.ipynb)
