@@ -15,7 +15,20 @@ The Figure above displays a summary of our methodology.
 We started by web-scraping the [S&P wikipedia](https://en.wikipedia.org/wiki/S%26P_500_Index) page to get the name of the companies and the standard industrial calsssification code. The later helped us to classify the stocks into different sectors which will be ised in the visualization part. We then used the Yahoo Finance module to download the Closed Stock Price and Volume for ~250 days/year for 2008-2016. Dowloading the data takes about ~30 mins/per year, resulting in 4.5 hours period to download the data for 2008-2016. We created the Closed Price correlation matrix, and used this as a filtering method to determine relationship between the stocks. 
 
 ```
-Showcase method of get_data
+# Function to retrieve the daily close price for a specific stock from Yahoo Finance
+def get_stockprice(ticker, start_date, end_date):
+    """
+    Return the daily adjusted close price of one stock in a certain period.
+    Args:
+    ticker(string): stock symbol of a company.
+    start_date, end_date(string): time interval bounds in the format of 'yyyy-mm-dd'.
+    """
+    stock = Share(ticker)
+    df = pd.DataFrame(stock.get_historical(start_date, end_date))
+    df.index = df['Date']
+    df.rename(columns = {'Adj_Close':ticker}, inplace = True)
+    df[ticker] = pd.to_numeric(df[ticker])
+    return df[ticker]
 ```
 
 The jupyter notebook for the Data_Download is available[here]()
