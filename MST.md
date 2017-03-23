@@ -33,7 +33,7 @@ Applied the algorithm to stock data of 2015, the MST is displayed as following. 
 <h2>Simulation of Performance of Portfolios</h2>
 <p>Assume invest $100000 on the portfolio on 2016-01-01 and keep the portfolio for 1 year. As the figure shows, both the portfolios beat the market.</p>
 <figure class="half">
-	<img src="https://github.com/verali0816/Stock-Correlation/blob/master/images/mst_portfolio.png?raw=true" alt="image">
-	<img src="https://github.com/verali0816/Stock-Correlation/blob/master/images/performance_of_portfolio.png?raw=true" alt="image">
+	<img width="600" height="400" src="https://github.com/verali0816/Stock-Correlation/blob/master/images/mst_portfolio.png?raw=true" alt="image">
+	<img width="600" height="400" src="https://github.com/verali0816/Stock-Correlation/blob/master/images/performance_of_portfolio.png?raw=true" alt="image">
 </figure>
  
