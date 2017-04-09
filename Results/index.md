@@ -54,11 +54,11 @@ Figure 4. The distributions of stocks in two sectors in 2008 to 2016.
 
 ## Trend Visualization among Sectors
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~dayi1292/179.embed"></iframe>
+<iframe width="600" height="400" frameborder="0" scrolling="no" src="//plot.ly/~dayi1292/179.embed"></iframe>
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~dayi1292/177.embed"></iframe>
+<iframe width="600" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~dayi1292/177.embed"></iframe>
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~dayi1292/175.embed"></iframe>
+<iframe width="600" height="400" frameborder="0" scrolling="no" src="//plot.ly/~dayi1292/175.embed"></iframe>
 
 Above we see three different sector based stock trends, if we were to select stocks based on their closed price performance across the years, the companies that are being more profitable and stock prices have constantly been increasing are Google in Information and Technology, AQUIX and PSA in Real State and PXD in the Energy sector.Pioneer Natural Resources Company is a petroleum, natural gas, and natural gas liquids exploration and production company and is beating Chevron on the market. You can see this by selecting only Chevron and PXD in our interactive trend plot. 
 
@@ -96,7 +96,7 @@ Applied the algorithm to stock data of 2015, the MST is displayed as following. 
 
 <h2>Simulation of Performance of Portfolios</h2>
 <p>Assume invest $100000 on the portfolio on 2016-01-01 and keep the portfolio for 1 year. As the figure shows, both the portfolios beat the market.</p>
-<figure class="half">
+<figure>
 	<img width="600" height="400" src="https://github.com/verali0816/Stock-Correlation/blob/master/images/mst_portfolio.png?raw=true" alt="image">
 	<img width="600" height="400" src="https://github.com/verali0816/Stock-Correlation/blob/master/images/performance_of_portfolio.png?raw=true" alt="image">
 </figure>
